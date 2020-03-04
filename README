@@ -1,0 +1,12 @@
+ASIMIONESEI DANIEL 311CD
+Feedback:
+	Tema este una "greuta" care necesita mult studiu si capacitatea de a 
+intelege ceea ce ti se cere.Mie, sincer,mi-a placut.😍
+Descriere implementare:
+	Task1:Am citi numarul de clustere si punctele pe care le-am plasat 
+intr-o matrice folosing dlmread.
+	Task2:Aleg cei NC centroizi random din multimea de puncte, acestia 
+fiind diferiti.Folosesc o instructiune repetitiva pentru gasirea solutiei optime , care converge.Conditia de iesire este atunci cand centroizii din doua interatii consecutive vor fi egali.Pentru fiecare punct in parte am calculat distanta(norma) fata de fiecare centroid si am ales-o pe cea mai mica.Ma folosesc de un vector de indici pentru a salva indicele centroidului corespunzator.Calculez media punctelor ce apartin unui centroid si astfel se va obtine noul centroid.
+	Task3:Calculez norma cu ajutorul careia imi formez vectorul de indici.Imi creez paleta de culori.Pentru toate punctele care apartin aceluias grup aleg aceeasi culoare.Vizualizez rezultatul.		
+	Task4:Calculez distantele de la centroid la fiecare din punctele ce apartin clusterului respectiv si calculez suma distantelor minime, care reprezinta costul.
+	Task5:Citesc matricea de pucte,apoi folosesc un for de 10 iteratii in care la fiecare iteratie calculez centroidul si costul pentru el.Pasul la care se va afla for-ul va fi numarul de clastere , petru care voi apela functiile clustering_pc si compute_cost_cp.Trasez graficul cu ajutorul functiei plot.
